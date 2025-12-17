@@ -20,7 +20,6 @@ export default function Productos() {
         );
     };
 
-
     useEffect(() => {
         const cargarDatos = async () => {
             try {
@@ -32,7 +31,6 @@ export default function Productos() {
                 ]);
 
                 setProductos(resProductos.data.products);
-
                 setCategorias(resCategorias.data);
 
             } catch (err) {

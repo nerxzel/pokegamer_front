@@ -4,7 +4,6 @@ import { Container, Navbar, Nav} from "react-bootstrap";
 import { useUser } from '../../hooks/useUser';
 
 
-
 export default function AppNavbar() {
     const { isAdmin } = useUser();
     return (
